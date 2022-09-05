@@ -11,7 +11,7 @@ import {
   createHttpLink,
   InMemoryCache,
 } from "@apollo/client";
-import { setContext } from "apollo-link-context";
+import { setContext } from "@apollo/client/link/context";
 
 //local query
 import { IS_LOGGED_IN } from "./gql/query";
